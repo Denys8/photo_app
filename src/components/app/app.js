@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import AppHeader from "../appheader";
+import Menu from "../Menu";
+import Photos from "../Photos";
+import Favorites from "../Favorites";
 
 import "./app.scss";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Denys and Lily!!!</h1>
-        <AppHeader />
+      <div className="App">
+        <Menu />
+        <Photos />
+        <Favorites />
       </div>
     );
   }

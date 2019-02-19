@@ -1,0 +1,16 @@
+.menu {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  background: #e0e0e0;
+
+  a {
+    padding: 10px 25px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    &.active {
+      background: #cdcdcd;
+    }
+  }
+}

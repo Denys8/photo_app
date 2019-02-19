@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import data from "./menu.json";
 
 import "./menu.scss";
@@ -9,7 +10,9 @@ const Menu = () => {
       {data.map(({ name, link }) => {
         return (
           <li key={link}>
-            <a href={link}>{name}</a>
+            <NavLink to={link} exact>
+              {name}
+            </NavLink>
           </li>
         );
       })}

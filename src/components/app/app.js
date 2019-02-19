@@ -1,20 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
 import Menu from "../Menu";
-import Photos from "../Photos";
-import Favorites from "../Favorites";
+import Router from "../Router";
 
 import "./app.scss";
 
-class App extends Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <BrowserRouter>
       <div className="App">
         <Menu />
-        <Photos />
-        <Favorites />
+        <Router />
       </div>
-    );
-  }
-}
+    </BrowserRouter>
+  );
+};
 
 export default App;

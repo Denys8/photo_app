@@ -1,0 +1,23 @@
+body,
+ul,
+h2 {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.page {
+  min-height: 600px;
+  margin: 15px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 2px 1px black;
+  padding: 15px;
+  box-sizing: border-box;
+}

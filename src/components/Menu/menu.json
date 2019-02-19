@@ -1,4 +1,4 @@
 [
-  { "name": "Photos", "link": "photos" },
-  { "name": "Favorites", "link": "favorites" }
+  { "name": "Photos", "link": "/" },
+  { "name": "Favorites", "link": "/favorites" }
 ]

@@ -1,4 +1,5 @@
+import PhotoServise from "../servise/PhotoServise";
+
 export const getPhotosAction = dispatch => {
-//   const url = "";
-  console.log("hi");
+  PhotoServise.getPhoto();
 };
